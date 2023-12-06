@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c57bc97c-1c43-4bb1-9424-fed846030b7b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 44.45 33.02) (size 34.29 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 013bb254-f239-4c32-8f76-0a97895c10b6)
+    (property "Sheetname" "MCU" (at 44.45 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 44.45 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ShiftWay_f103"
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 189.23 33.02) (size 36.83 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0e47d56e-6599-490c-8484-306c0a411551)
+    (property "Sheetname" "Powerboard Interface" (at 189.23 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "powerboard.kicad_sch" (at 189.23 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ShiftWay_f103"
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 140.97 33.02) (size 34.29 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 26a2c67c-0b98-4594-97f4-678ce34d1b61)
+    (property "Sheetname" "Power" (at 140.97 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 140.97 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ShiftWay_f103"
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 86.36 33.02) (size 41.91 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 44aacc1d-3f92-4714-b852-d77f581a6611)
+    (property "Sheetname" "IMU" (at 86.36 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "imu.kicad_sch" (at 86.36 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ShiftWay_f103"
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
