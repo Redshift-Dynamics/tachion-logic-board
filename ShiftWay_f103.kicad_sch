@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "RedShift-117.6-LogicBoard-F103")
+    (date "08.12.2023")
+    (rev "0.1")
+  )
+
   (lib_symbols
   )
 

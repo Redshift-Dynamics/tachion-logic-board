@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "RedShift-117.6-LogicBoard-F103")
+    (date "08.12.2023")
+    (rev "0.1")
+  )
+
   (lib_symbols
     (symbol "PCM_4ms_Connector:Conn_02x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 5.08 0)
