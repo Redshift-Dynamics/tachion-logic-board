@@ -471,14 +471,14 @@
     (property "Part Number" "1-0802FBV0T" (at 146.05 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (pin "1" (uuid c83987ac-8129-4285-9e66-bcd4055c26a6))
+    (pin "2" (uuid 6e0c7b1f-d683-4360-bbe7-5f8dc91f3448))
+    (pin "3" (uuid 080f7bfd-d36d-4ef7-b776-89174aeb0362))
+    (pin "4" (uuid 10f97a9a-a46e-40f0-aea2-0ef19e2aaf10))
+    (pin "5" (uuid 161c4c95-b653-4e08-8ea7-905ca0fd4a34))
+    (pin "6" (uuid 81323959-b87f-41e7-b31a-4dd9d781b3af))
     (pin "7" (uuid bb885660-f897-43bf-9133-f95ac0c6a660))
     (pin "8" (uuid a8c5043e-6259-4e26-acae-6cdb5e6663b7))
-    (pin "1" (uuid c83987ac-8129-4285-9e66-bcd4055c26a6))
-    (pin "3" (uuid 080f7bfd-d36d-4ef7-b776-89174aeb0362))
-    (pin "2" (uuid 6e0c7b1f-d683-4360-bbe7-5f8dc91f3448))
-    (pin "5" (uuid 161c4c95-b653-4e08-8ea7-905ca0fd4a34))
-    (pin "4" (uuid 10f97a9a-a46e-40f0-aea2-0ef19e2aaf10))
-    (pin "6" (uuid 81323959-b87f-41e7-b31a-4dd9d781b3af))
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
@@ -512,14 +512,14 @@
     (property "Part Number" "1-0802FBV0T" (at 146.05 52.705 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (pin "1" (uuid 605321ca-beb1-46bd-bce3-98d308c0f292))
+    (pin "2" (uuid b768ac8c-48b3-4145-8d2c-19ac5907ffa7))
+    (pin "3" (uuid 79af5a2a-c805-4bd3-80e9-d66e970ab791))
+    (pin "4" (uuid 72cf09ff-0e79-4556-84f8-0ed7da00ef2b))
+    (pin "5" (uuid f75e5df6-fe0e-4950-916c-8ebbdf875830))
+    (pin "6" (uuid 09cd8195-2eab-4bc5-b296-6b75bd0660b0))
     (pin "7" (uuid 4f9ddf73-0888-4fd7-acaa-e7a69b7f1c75))
     (pin "8" (uuid 024274ba-038a-4e0b-970a-36f9254e64f4))
-    (pin "1" (uuid 605321ca-beb1-46bd-bce3-98d308c0f292))
-    (pin "3" (uuid 79af5a2a-c805-4bd3-80e9-d66e970ab791))
-    (pin "2" (uuid b768ac8c-48b3-4145-8d2c-19ac5907ffa7))
-    (pin "5" (uuid f75e5df6-fe0e-4950-916c-8ebbdf875830))
-    (pin "4" (uuid 72cf09ff-0e79-4556-84f8-0ed7da00ef2b))
-    (pin "6" (uuid 09cd8195-2eab-4bc5-b296-6b75bd0660b0))
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
@@ -878,14 +878,14 @@
     (property "Part Number" "1-0802FBV0T" (at 146.05 127.635 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (pin "1" (uuid b7106c38-4bca-4866-b280-f576b283e668))
+    (pin "2" (uuid f0affd1f-f5e9-45ed-a7ef-b4ebb779a3d9))
+    (pin "3" (uuid 3ad50f4c-8fec-490c-937b-96b127e9baa3))
+    (pin "4" (uuid 0d177fdc-d7be-4542-b207-fbf9639b9af6))
+    (pin "5" (uuid 62ffde4e-37f5-4a67-ae61-42d333eb9ff7))
+    (pin "6" (uuid affc04a0-3ddd-4307-a583-68e10b8c1db2))
     (pin "7" (uuid 29f0df73-16ff-4f71-8a65-02540144ee89))
     (pin "8" (uuid 6693e79f-a77c-476e-9237-86f3c84a8520))
-    (pin "1" (uuid b7106c38-4bca-4866-b280-f576b283e668))
-    (pin "3" (uuid 3ad50f4c-8fec-490c-937b-96b127e9baa3))
-    (pin "2" (uuid f0affd1f-f5e9-45ed-a7ef-b4ebb779a3d9))
-    (pin "5" (uuid 62ffde4e-37f5-4a67-ae61-42d333eb9ff7))
-    (pin "4" (uuid 0d177fdc-d7be-4542-b207-fbf9639b9af6))
-    (pin "6" (uuid affc04a0-3ddd-4307-a583-68e10b8c1db2))
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
