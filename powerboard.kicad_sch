@@ -496,7 +496,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 139.7 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3523d5e2-fb42-49fb-b9c2-cf90f4978d46)
-    (property "Reference" "#PWR066" (at 139.7 71.12 0)
+    (property "Reference" "#PWR070" (at 139.7 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 69.85 0)
@@ -512,7 +512,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -521,7 +521,7 @@
   (symbol (lib_id "power:+3V3") (at 144.78 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 487f2de8-be5c-40b1-bdb9-24da7592d01e)
-    (property "Reference" "#PWR067" (at 148.59 96.52 0)
+    (property "Reference" "#PWR071" (at 148.59 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 140.97 96.52 90)
@@ -537,7 +537,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -546,7 +546,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:+12V") (at 157.48 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d6b6dc8-4dbb-4d56-a4de-9816c9341851)
-    (property "Reference" "#PWR072" (at 153.67 129.54 0)
+    (property "Reference" "#PWR076" (at 153.67 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 161.29 129.54 90)
@@ -562,7 +562,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -571,7 +571,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 134.62 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64c972a5-c875-4d3f-a3f8-fc02b7f10508)
-    (property "Reference" "#PWR065" (at 134.62 144.78 0)
+    (property "Reference" "#PWR069" (at 134.62 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 143.51 0)
@@ -587,7 +587,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -596,7 +596,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 166.37 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 716de232-63a3-4957-939e-bcaa0c1df6f4)
-    (property "Reference" "#PWR073" (at 166.37 144.78 0)
+    (property "Reference" "#PWR077" (at 166.37 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 143.51 0)
@@ -612,7 +612,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -621,7 +621,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:+12V") (at 157.48 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72e1d841-0119-4df4-9c78-c134155a2258)
-    (property "Reference" "#PWR070" (at 153.67 57.15 0)
+    (property "Reference" "#PWR074" (at 153.67 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 161.29 57.15 90)
@@ -637,7 +637,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -646,7 +646,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 171.45 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7729210a-5853-4c03-bfed-a9d771d09e0f)
-    (property "Reference" "#PWR074" (at 171.45 105.41 0)
+    (property "Reference" "#PWR078" (at 171.45 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 104.14 0)
@@ -662,7 +662,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -671,7 +671,7 @@
   (symbol (lib_id "power:+3V3") (at 144.78 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78503364-e3ca-49d5-aa65-bd3afa3cbe2b)
-    (property "Reference" "#PWR068" (at 148.59 129.54 0)
+    (property "Reference" "#PWR072" (at 148.59 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 140.97 129.54 90)
@@ -687,7 +687,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -696,7 +696,7 @@
   (symbol (lib_id "power:+3V3") (at 157.48 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a923261e-e23a-42ab-91ac-8e95814e9f25)
-    (property "Reference" "#PWR069" (at 153.67 54.61 0)
+    (property "Reference" "#PWR073" (at 153.67 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 161.29 54.61 90)
@@ -712,7 +712,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -721,7 +721,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 129.54 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b17115a0-7e6c-470e-a57e-a428eedaf45e)
-    (property "Reference" "#PWR064" (at 129.54 104.14 0)
+    (property "Reference" "#PWR068" (at 129.54 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 102.87 0)
@@ -737,7 +737,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -746,7 +746,7 @@
   (symbol (lib_id "PCM_4ms_Power-symbol:+12V") (at 157.48 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cadce79c-ba38-4e41-8a40-a56b80a7549f)
-    (property "Reference" "#PWR071" (at 153.67 96.52 0)
+    (property "Reference" "#PWR075" (at 153.67 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 161.29 96.52 90)
@@ -762,7 +762,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )

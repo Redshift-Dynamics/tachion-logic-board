@@ -522,13 +522,13 @@
   (symbol (lib_id "Device:R") (at 143.51 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0889d79b-06d5-4985-a7fd-ecc577f62cc8)
-    (property "Reference" "R30" (at 145.542 113.0299 0)
+    (property "Reference" "R31" (at 145.542 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 145.542 115.5699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 141.732 114.3 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 141.732 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 143.51 114.3 0)
@@ -539,7 +539,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "R30") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -548,7 +548,7 @@
   (symbol (lib_id "power:GND") (at 186.69 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19a250dd-f249-4a13-932a-bf68b3498abb)
-    (property "Reference" "#PWR062" (at 186.69 134.62 0)
+    (property "Reference" "#PWR066" (at 186.69 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 133.096 0)
@@ -564,7 +564,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -573,7 +573,7 @@
   (symbol (lib_id "power:GND") (at 127 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30e69a33-6ea6-4f85-b17f-35f993e6a8ff)
-    (property "Reference" "#PWR057" (at 127 134.62 0)
+    (property "Reference" "#PWR061" (at 127 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 133.604 0)
@@ -589,7 +589,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -598,7 +598,7 @@
   (symbol (lib_id "power:+3V3") (at 167.64 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4510689d-ef07-4f02-a652-f6952c3227a5)
-    (property "Reference" "#PWR060" (at 167.64 64.77 0)
+    (property "Reference" "#PWR064" (at 167.64 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 167.64 55.88 0)
@@ -614,7 +614,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -623,7 +623,7 @@
   (symbol (lib_id "power:GND") (at 165.1 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45ccb953-efa5-4f6a-9dd7-c99098aceb9e)
-    (property "Reference" "#PWR059" (at 165.1 134.62 0)
+    (property "Reference" "#PWR063" (at 165.1 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 133.096 0)
@@ -639,7 +639,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -648,13 +648,13 @@
   (symbol (lib_id "Device:C") (at 185.42 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 602533db-970a-49be-ae26-d257117da8b3)
-    (property "Reference" "C32" (at 188.722 71.1199 0)
+    (property "Reference" "C34" (at 188.722 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 186.436 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 186.3852 76.2 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 186.3852 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 72.39 0)
@@ -665,7 +665,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "C32") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -674,7 +674,7 @@
   (symbol (lib_id "power:GND") (at 180.34 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62cd9cb2-6da9-4ba3-861a-b09dbc8099be)
-    (property "Reference" "#PWR061" (at 180.34 85.09 0)
+    (property "Reference" "#PWR065" (at 180.34 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 84.328 0)
@@ -690,7 +690,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -699,13 +699,13 @@
   (symbol (lib_id "Device:R") (at 134.62 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b35e1ce-e693-441d-a412-c4bfce31dc63)
-    (property "Reference" "R28" (at 136.652 87.6299 0)
+    (property "Reference" "R29" (at 136.652 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 136.652 90.1699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 136.398 88.9 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 136.398 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 88.9 0)
@@ -716,7 +716,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -725,7 +725,7 @@
   (symbol (lib_id "power:GND") (at 198.12 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b198fe6-11d0-4384-894d-d94ecf71bcbb)
-    (property "Reference" "#PWR063" (at 198.12 134.62 0)
+    (property "Reference" "#PWR067" (at 198.12 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 133.096 0)
@@ -741,7 +741,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -750,13 +750,13 @@
   (symbol (lib_id "Device:R") (at 127 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94bf4938-f0b1-4a63-9408-a7be3be098af)
-    (property "Reference" "R27" (at 129.032 113.0299 0)
+    (property "Reference" "R28" (at 129.032 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 129.032 115.5699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 128.778 114.3 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 128.778 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 114.3 0)
@@ -767,7 +767,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "R27") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -776,13 +776,13 @@
   (symbol (lib_id "Device:R") (at 119.38 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99751ac6-3f91-4b5e-aaf1-196d835ea716)
-    (property "Reference" "R26" (at 122.174 87.6299 0)
+    (property "Reference" "R27" (at 122.174 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 122.174 90.1699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 121.158 88.9 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 121.158 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 88.9 0)
@@ -793,7 +793,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "R26") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -802,7 +802,7 @@
   (symbol (lib_id "power:GND") (at 143.51 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab5a2498-157d-41c7-879d-1fae698e1f03)
-    (property "Reference" "#PWR058" (at 143.51 134.62 0)
+    (property "Reference" "#PWR062" (at 143.51 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 133.604 0)
@@ -818,7 +818,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -827,13 +827,13 @@
   (symbol (lib_id "Device:C") (at 191.77 110.49 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6a7f6a4-6772-47b8-afea-77b4c9a5e971)
-    (property "Reference" "C33" (at 191.77 106.68 90)
+    (property "Reference" "C35" (at 191.77 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 191.77 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 187.96 111.4552 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 187.96 111.4552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 110.49 0)
@@ -844,7 +844,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "C33") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -891,13 +891,13 @@
   (symbol (lib_id "Device:R") (at 142.24 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db81c142-5390-46d2-8e42-41cc375c13c8)
-    (property "Reference" "R29" (at 144.272 87.6299 0)
+    (property "Reference" "R30" (at 144.272 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 144.272 90.1699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 144.018 88.9 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 144.018 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 88.9 0)
@@ -908,7 +908,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "R29") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -917,13 +917,13 @@
   (symbol (lib_id "Device:C") (at 175.26 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dced4643-e7ce-4891-8c5a-e37d2fd8fd60)
-    (property "Reference" "C31" (at 178.308 71.1199 0)
+    (property "Reference" "C33" (at 178.308 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF" (at 176.022 74.676 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 176.2252 76.2 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 176.2252 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.26 72.39 0)
@@ -934,7 +934,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-          (reference "C31") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
