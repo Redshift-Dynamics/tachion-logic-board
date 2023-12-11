@@ -26,7 +26,7 @@
     )
     (instances
       (project "ShiftWay_f103"
-        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "2"))
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "3"))
       )
     )
   )
@@ -48,19 +48,36 @@
     )
   )
 
-  (sheet (at 25.4 25.4) (size 36.83 35.56) (fields_autoplaced)
+  (sheet (at 25.4 48.26) (size 36.83 29.21) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 26a2c67c-0b98-4594-97f4-678ce34d1b61)
-    (property "Sheetname" "Power" (at 25.4 24.6884 0)
+    (property "Sheetname" "Power Inlet" (at 25.4 47.5484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "power.kicad_sch" (at 25.4 61.5446 0)
+    (property "Sheetfile" "power.kicad_sch" (at 25.4 78.0546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 90.17) (size 36.83 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 38230a7e-96be-4145-8fae-a896a24d853d)
+    (property "Sheetname" "Power Stepdowns" (at 25.4 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "stepdowns.kicad_sch" (at 25.4 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ShiftWay_f103"
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b" (page "2"))
       )
     )
   )
@@ -100,6 +117,6 @@
   )
 
   (sheet_instances
-    (path "/" (page "1"))
+    (path "/" (page "3"))
   )
 )

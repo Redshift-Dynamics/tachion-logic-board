@@ -4242,7 +4242,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (layer "F.Cu")
     (tstamp 8ebe7be3-0937-42b6-93f0-dd536eb0b753)
-    (at 95.5175 100.86)
+    (at 134.62 38.1)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (property "Sheetfile" "power.kicad_sch")
