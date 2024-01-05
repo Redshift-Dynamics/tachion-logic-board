@@ -266,12 +266,6 @@
       (property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Sim.Device" "D" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
       (property "ki_keywords" "diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1258,7 +1252,7 @@
   (symbol (lib_id "Device:C") (at 93.98 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0675f631-54ff-43bd-8788-74620c1ff094)
-    (property "Reference" "C39" (at 96.52 39.37 0)
+    (property "Reference" "C49" (at 96.52 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 97.79 44.45 0)
@@ -1275,7 +1269,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C39") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -1284,7 +1278,7 @@
   (symbol (lib_id "Device:C") (at 104.14 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 076244bb-f9a1-4dfd-ba2f-a96ad053fd5e)
-    (property "Reference" "C40" (at 107.95 39.37 0)
+    (property "Reference" "C50" (at 107.95 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 109.22 44.45 0)
@@ -1301,7 +1295,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C40") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -1310,7 +1304,7 @@
   (symbol (lib_id "Device:LED") (at 228.6 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0766b227-902b-4323-9f52-702d562e11c0)
-    (property "Reference" "D16" (at 227.33 49.53 90)
+    (property "Reference" "D24" (at 227.33 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_G" (at 227.33 53.34 90)
@@ -1327,7 +1321,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "D16") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -1336,7 +1330,7 @@
   (symbol (lib_id "Device:C") (at 194.31 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 162c373d-dc69-4d0e-93a4-26168edf5d79)
-    (property "Reference" "C43" (at 196.85 39.37 0)
+    (property "Reference" "C53" (at 196.85 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 198.12 44.45 0)
@@ -1353,7 +1347,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C43") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -1362,7 +1356,7 @@
   (symbol (lib_id "Device:C") (at 68.58 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 188f1591-11b9-47d2-91d9-6f061e619898)
-    (property "Reference" "C38" (at 71.12 124.46 0)
+    (property "Reference" "C56" (at 71.12 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 72.39 129.54 0)
@@ -1379,7 +1373,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C38") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -1388,7 +1382,7 @@
   (symbol (lib_id "Device:R") (at 78.74 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a2b43f2-30db-4801-860e-be548a0c984c)
-    (property "Reference" "R37" (at 78.74 43.0997 90)
+    (property "Reference" "R48" (at 78.74 43.0997 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k3" (at 78.74 45.5239 90)
@@ -1405,7 +1399,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R37") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -1414,7 +1408,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 250.19 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1acbf208-ff2e-4667-a496-8d3f63f226b1)
-    (property "Reference" "XH2" (at 252.73 64.77 0)
+    (property "Reference" "XH1" (at 252.73 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HALL TESTER" (at 252.73 67.31 0)
@@ -1434,7 +1428,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "XH2") (unit 1)
+          (reference "XH1") (unit 1)
         )
       )
     )
@@ -1443,7 +1437,7 @@
   (symbol (lib_id "Device:R") (at 78.74 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 246c9284-b0ec-4235-8836-b74ba1c11834)
-    (property "Reference" "R42" (at 78.74 112.9497 90)
+    (property "Reference" "R53" (at 78.74 112.9497 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k3" (at 78.74 115.3739 90)
@@ -1460,7 +1454,33 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R42") (unit 1)
+          (reference "R53") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:1N4148WS") (at 63.5 29.21 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 25343a9e-94f6-4741-86b8-42af0efa2e1a)
+    (property "Reference" "D21" (at 63.5 22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N4148WS" (at 63.5 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 63.5 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf" (at 63.5 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ee680d63-fb5b-40a5-b64e-44f5c71d37e6))
+    (pin "2" (uuid 4a0595d9-0267-4671-b369-a8bc6429cd60))
+    (instances
+      (project "ShiftWay_f103"
+        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -1469,7 +1489,7 @@
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 68.58 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3653888f-8751-45e2-b284-986a8d4f82d2)
-    (property "Reference" "#PWR089" (at 68.58 139.7 0)
+    (property "Reference" "#PWR0100" (at 68.58 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 138.43 0)
@@ -1485,7 +1505,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -1494,7 +1514,7 @@
   (symbol (lib_id "Device:C") (at 123.19 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38fc826f-fdb8-4405-b289-466ec9eb033d)
-    (property "Reference" "C41" (at 125.73 39.37 0)
+    (property "Reference" "C51" (at 125.73 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 127 44.45 0)
@@ -1511,7 +1531,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C41") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -1520,7 +1540,7 @@
   (symbol (lib_name "GND_6") (lib_id "power:GND") (at 68.58 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d2a35a7-0f17-4af3-b175-c36c366b9c43)
-    (property "Reference" "#PWR087" (at 68.58 74.93 0)
+    (property "Reference" "#PWR095" (at 68.58 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 72.39 0)
@@ -1536,7 +1556,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1545,7 +1565,7 @@
   (symbol (lib_id "power:+5V") (at 50.8 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41aaa15c-46ad-489a-abe4-885cdfdb4611)
-    (property "Reference" "#PWR085" (at 54.61 29.21 0)
+    (property "Reference" "#PWR088" (at 54.61 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 47.6251 29.21 90)
@@ -1561,7 +1581,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1570,7 +1590,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 68.58 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57646a79-967b-4a68-84d6-eaa978052436)
-    (property "Reference" "#PWR088" (at 68.58 106.68 0)
+    (property "Reference" "#PWR099" (at 68.58 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 105.41 0)
@@ -1586,7 +1606,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -1595,7 +1615,7 @@
   (symbol (lib_id "Device:C") (at 68.58 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cc5e6ef-6d22-4cba-99be-1443bb44d64e)
-    (property "Reference" "C36" (at 71.12 59.69 0)
+    (property "Reference" "C54" (at 71.12 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 72.39 64.77 0)
@@ -1612,7 +1632,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C36") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -1621,7 +1641,7 @@
   (symbol (lib_id "power:+5V") (at 186.69 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63449897-b911-47e3-8a8d-8788ec631ff7)
-    (property "Reference" "#PWR095" (at 190.5 29.21 0)
+    (property "Reference" "#PWR089" (at 190.5 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 183.5151 29.21 90)
@@ -1637,7 +1657,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -1671,7 +1691,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 114.3 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 738cb78a-2618-4daa-979d-e80427ef6f7b)
-    (property "Reference" "#PWR092" (at 114.3 104.14 0)
+    (property "Reference" "#PWR098" (at 114.3 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 102.616 0)
@@ -1687,39 +1707,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR092") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N4148WS") (at 63.5 29.21 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a7a0431-5d10-4f56-810a-9162346cd3af)
-    (property "Reference" "D13" (at 63.5 23.7957 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N4148WS" (at 63.5 26.2199 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 63.5 24.765 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf" (at 63.5 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 63.5 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 63.5 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9c6b0eb9-4193-4548-8b35-2bf3c49a1fa7))
-    (pin "2" (uuid 93246736-c12f-4736-9f89-71cb5e2bc6cd))
-    (instances
-      (project "ShiftWay_f103"
-        (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "D13") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1728,7 +1716,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 134.62 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b35b9b5-7679-427d-9b6a-65560101c439)
-    (property "Reference" "XH1" (at 137.16 82.55 0)
+    (property "Reference" "XH2" (at 137.16 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HALL SENSORS" (at 137.16 85.09 0)
@@ -1748,7 +1736,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "XH1") (unit 1)
+          (reference "XH2") (unit 1)
         )
       )
     )
@@ -1782,7 +1770,7 @@
   (symbol (lib_id "Device:R") (at 228.6 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 810b47d1-b4c4-4a2f-90ba-9a35aef74245)
-    (property "Reference" "R45" (at 229.87 40.64 0)
+    (property "Reference" "R47" (at 229.87 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680R" (at 229.87 43.18 0)
@@ -1799,7 +1787,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R45") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1833,7 +1821,7 @@
   (symbol (lib_id "Device:R") (at 78.74 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92d86014-9737-4f20-af74-4209bc786b26)
-    (property "Reference" "R38" (at 78.74 50.7197 90)
+    (property "Reference" "R49" (at 78.74 50.7197 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k3" (at 78.74 53.1439 90)
@@ -1850,7 +1838,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R38") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -1859,7 +1847,7 @@
   (symbol (lib_id "Device:R") (at 78.74 110.49 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a625670b-9923-40ea-96c3-377cf20c4c27)
-    (property "Reference" "R41" (at 78.74 105.3297 90)
+    (property "Reference" "R52" (at 78.74 105.3297 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k3" (at 78.74 107.7539 90)
@@ -1876,7 +1864,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R41") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1885,7 +1873,7 @@
   (symbol (lib_id "Device:LED") (at 217.17 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af59a4bf-0551-4eda-bc06-eaab44a6d992)
-    (property "Reference" "D15" (at 215.9 49.53 90)
+    (property "Reference" "D23" (at 215.9 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_G" (at 215.9 53.34 90)
@@ -1902,7 +1890,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "D15") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -1911,7 +1899,7 @@
   (symbol (lib_id "Device:C") (at 132.08 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8a0c732-34c5-4cd3-a033-fb6412e398d2)
-    (property "Reference" "C42" (at 135.89 39.37 0)
+    (property "Reference" "C52" (at 135.89 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 137.16 44.45 0)
@@ -1928,7 +1916,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C42") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -1937,7 +1925,7 @@
   (symbol (lib_name "GND_7") (lib_id "power:GND") (at 93.98 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba9f66f6-0924-4d0e-a21a-4ac113cbf4aa)
-    (property "Reference" "#PWR090" (at 93.98 54.61 0)
+    (property "Reference" "#PWR091" (at 93.98 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 53.34 0)
@@ -1953,7 +1941,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1962,7 +1950,7 @@
   (symbol (lib_id "power:+3V3") (at 50.8 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d58b0978-8b38-4d18-b636-122b8a3ce9d5)
-    (property "Reference" "#PWR086" (at 54.61 35.56 0)
+    (property "Reference" "#PWR090" (at 54.61 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 47.625 35.56 90)
@@ -1978,7 +1966,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1987,7 +1975,7 @@
   (symbol (lib_id "Device:R") (at 78.74 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5f3cce8-6ed7-4627-a5c0-86ce0d362738)
-    (property "Reference" "R40" (at 78.74 82.4697 90)
+    (property "Reference" "R51" (at 78.74 82.4697 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k3" (at 78.74 84.8939 90)
@@ -2004,7 +1992,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R40") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -2013,7 +2001,7 @@
   (symbol (lib_id "Device:R") (at 205.74 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7e3c06a-eff4-4a6d-b127-4552a9608fc1)
-    (property "Reference" "R43" (at 207.01 40.64 0)
+    (property "Reference" "R45" (at 207.01 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680R" (at 207.01 43.18 0)
@@ -2030,7 +2018,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R43") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -2039,7 +2027,7 @@
   (symbol (lib_id "Device:R") (at 78.74 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8382424-0b84-4d02-96aa-1fa705871099)
-    (property "Reference" "R39" (at 78.74 74.8497 90)
+    (property "Reference" "R50" (at 78.74 74.8497 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k3" (at 78.74 77.2739 90)
@@ -2056,7 +2044,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R39") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -2065,7 +2053,7 @@
   (symbol (lib_id "Device:R") (at 217.17 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e97fcade-3267-46b9-92bf-23c44c1264d7)
-    (property "Reference" "R44" (at 218.44 40.64 0)
+    (property "Reference" "R46" (at 218.44 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680R" (at 218.44 43.18 0)
@@ -2082,7 +2070,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "R44") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2091,7 +2079,7 @@
   (symbol (lib_id "Device:C") (at 68.58 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb7f81bf-5a4a-4889-bfa9-1622a7c1016d)
-    (property "Reference" "C37" (at 71.12 91.44 0)
+    (property "Reference" "C55" (at 71.12 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 72.39 96.52 0)
@@ -2108,7 +2096,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "C37") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -2117,7 +2105,7 @@
   (symbol (lib_id "Device:LED") (at 205.74 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0820734-51b0-444d-8043-56c9be9038ac)
-    (property "Reference" "D14" (at 204.47 49.53 90)
+    (property "Reference" "D22" (at 204.47 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_G" (at 204.47 53.34 90)
@@ -2134,7 +2122,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "D14") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -2143,7 +2131,7 @@
   (symbol (lib_name "GND_8") (lib_id "power:GND") (at 104.14 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0d50006-159f-4b00-bd2c-579cc99f12b3)
-    (property "Reference" "#PWR091" (at 104.14 54.61 0)
+    (property "Reference" "#PWR092" (at 104.14 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 53.34 0)
@@ -2159,7 +2147,7 @@
     (instances
       (project "ShiftWay_f103"
         (path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/4dab5bff-4ab0-428f-9acb-c33442b41710"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )

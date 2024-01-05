@@ -1260,7 +1260,7 @@
     (property "Reference" "R9" (at 162.56 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "81k" (at 162.56 88.9 0)
+    (property "Value" "81k NOT PLACE!" (at 168.91 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 160.528 85.09 90)

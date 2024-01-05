@@ -477,16 +477,12 @@
   },
   "sheets": [
     [
-      "26a2c67c-0b98-4594-97f4-678ce34d1b61",
-      "Power Inlet"
+      "c57bc97c-1c43-4bb1-9424-fed846030b7b",
+      ""
     ],
     [
       "38230a7e-96be-4145-8fae-a896a24d853d",
       "Power Stepdowns"
-    ],
-    [
-      "c57bc97c-1c43-4bb1-9424-fed846030b7b",
-      ""
     ],
     [
       "013bb254-f239-4c32-8f76-0a97895c10b6",
@@ -497,12 +493,16 @@
       "IMU"
     ],
     [
-      "0e47d56e-6599-490c-8484-306c0a411551",
-      "Powerboard Interface"
+      "59aacd40-b3cd-4756-8bef-db4ac71b0dd3",
+      "Mosfet Drivers"
     ],
     [
       "4dab5bff-4ab0-428f-9acb-c33442b41710",
       "Hall Sensors"
+    ],
+    [
+      "0e47d56e-6599-490c-8484-306c0a411551",
+      "Powerboard Interface"
     ]
   ],
   "text_variables": {}
