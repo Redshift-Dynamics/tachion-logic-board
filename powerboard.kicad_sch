@@ -1286,7 +1286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8608ff-9ac5-49fc-a03c-6d6e6f4c1f5f")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0100"
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -1337,7 +1337,7 @@
 		(instances
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-					(reference "#PWR0110")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -1353,7 +1353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8018d8db-0db6-40d1-b61e-d689130b7954")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0102"
 			(at 153.67 86.36 0)
 			(effects
 				(font
@@ -1404,7 +1404,7 @@
 		(instances
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-					(reference "#PWR0103")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1419,7 +1419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94b60ecb-e211-4f8c-89e8-2cf1f7ac5858")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR099"
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -1469,7 +1469,7 @@
 		(instances
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-					(reference "#PWR0111")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -1637,7 +1637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3bfe2d7-fee4-478e-b590-95a7be33534b")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0103"
 			(at 207.01 92.71 0)
 			(effects
 				(font
@@ -1687,7 +1687,7 @@
 		(instances
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/0e47d56e-6599-490c-8484-306c0a411551"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
