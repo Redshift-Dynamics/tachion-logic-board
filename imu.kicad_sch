@@ -830,10 +830,10 @@
 		(uuid "01854d85-c117-4248-b7a4-dfd275639f65")
 	)
 	(junction
-		(at 127 80.01)
+		(at 130.81 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d556344-ca27-4c3e-b4d4-9dd54afb699a")
+		(uuid "21861801-c7b0-49a0-8144-a52e549bd7c0")
 	)
 	(junction
 		(at 167.64 80.01)
@@ -842,16 +842,16 @@
 		(uuid "34eff459-75ac-46c1-befa-9c28d09e16cf")
 	)
 	(junction
-		(at 127 100.33)
+		(at 140.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3581ca44-c265-47e4-97a8-3fd88c677403")
+		(uuid "928c2c14-32c8-44bf-ab94-035bf9cb9a05")
 	)
 	(junction
-		(at 142.24 105.41)
+		(at 130.81 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2c2f6f8-13b0-425d-a3a2-4b5c7786332a")
+		(uuid "b2d95f58-567e-4033-bff5-a5ba6602a55a")
 	)
 	(junction
 		(at 119.38 97.79)
@@ -860,16 +860,10 @@
 		(uuid "d4e9d39b-c2fa-49fd-bb9a-75bc0501e69f")
 	)
 	(junction
-		(at 134.62 102.87)
+		(at 140.97 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9e12945-43d3-4262-952a-1116ce35dd1f")
-	)
-	(junction
-		(at 134.62 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e91ea644-6fd9-4075-92eb-2a35c76b92cd")
+		(uuid "e9557196-0caa-4739-9ef1-0c537e3c9a58")
 	)
 	(junction
 		(at 167.64 67.31)
@@ -895,16 +889,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 80.01) (xy 142.24 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03149c67-aebe-4ab7-bbdf-5e5edcc1f70e")
-	)
-	(wire
-		(pts
 			(xy 167.64 67.31) (xy 167.64 80.01)
 		)
 		(stroke
@@ -915,13 +899,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 142.24 105.41)
+			(xy 143.51 110.49) (xy 143.51 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "062daa5a-b50d-4e3d-95dc-c2b0cc1b362c")
+		(uuid "1072fe23-944f-4f59-b0d7-8fb6f4d4cb8d")
 	)
 	(wire
 		(pts
@@ -975,17 +959,27 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 127 80.01)
+			(xy 130.81 80.01) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d4827e3-8956-4d21-b5cf-04cd71e1e902")
+		(uuid "2821a461-7c67-4656-98b1-5e3679c3d4c9")
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 142.24 105.41)
+			(xy 119.38 80.01) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f6437-6abe-4ecb-8e77-cb0a31ad2d35")
+	)
+	(wire
+		(pts
+			(xy 113.03 105.41) (xy 147.32 105.41)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 119.38 80.01)
+			(xy 140.97 74.93) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1005,13 +999,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 118.11) (xy 143.51 128.27)
+			(xy 130.81 85.09) (xy 130.81 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b0a18a6-f987-4f8d-ab52-32f5409bbefd")
+		(uuid "4ec416d9-b139-4a7c-90f3-7e1b6b2e68a8")
 	)
 	(wire
 		(pts
@@ -1035,16 +1029,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 127 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e73e13e-6a0a-4c2b-a6df-3ab7ef578c9a")
-	)
-	(wire
-		(pts
 			(xy 175.26 76.2) (xy 180.34 76.2)
 		)
 		(stroke
@@ -1052,16 +1036,6 @@
 			(type default)
 		)
 		(uuid "5f821dba-ca66-439f-984d-bc5f9178523a")
-	)
-	(wire
-		(pts
-			(xy 142.24 80.01) (xy 142.24 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b26caf-97cd-4104-8851-536f18ce46cd")
 	)
 	(wire
 		(pts
@@ -1075,27 +1049,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 127 67.31)
+			(xy 140.97 80.01) (xy 130.81 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72539910-f8e3-41b9-817f-0bad0ce2f51d")
+		(uuid "75c567be-5076-4a19-ac98-652fff5f2cb2")
 	)
 	(wire
 		(pts
-			(xy 142.24 105.41) (xy 147.32 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "793d7693-bace-4cb2-937b-9f0a69d4d22b")
-	)
-	(wire
-		(pts
-			(xy 127 100.33) (xy 147.32 100.33)
+			(xy 113.03 100.33) (xy 130.81 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1135,27 +1099,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 127 110.49)
+			(xy 130.81 92.71) (xy 130.81 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a52ef948-e6ed-491f-a95e-b42ba41851c8")
+		(uuid "b14b481f-6067-44c1-9871-d0c9fb830251")
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 127 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ed92cb-ab2e-48d2-90a9-e46d6bd0b7b2")
-	)
-	(wire
-		(pts
-			(xy 113.03 102.87) (xy 134.62 102.87)
+			(xy 113.03 102.87) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 80.01)
+			(xy 140.97 85.09) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1185,33 +1139,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 80.01) (xy 127 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf69e07-2ba6-47f0-9a68-3e94051855ee")
-	)
-	(wire
-		(pts
-			(xy 134.62 92.71) (xy 134.62 102.87)
+			(xy 140.97 92.71) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d3af6454-38db-49bc-90a3-494501e88b1e")
-	)
-	(wire
-		(pts
-			(xy 134.62 102.87) (xy 147.32 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97fd6fa-4b2b-4534-9216-f706299ea96b")
 	)
 	(wire
 		(pts
@@ -1241,7 +1175,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e4634224-9511-4c93-b28c-5ec70f2040af")
+		(uuid "e67d6dde-fbb3-4029-9d9b-95d4ed31004e")
 	)
 	(wire
 		(pts
@@ -1265,16 +1199,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 167.64 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0fbfb4e-cfbd-4a68-8d0d-f7b5c98fbd1c")
-	)
-	(wire
-		(pts
 			(xy 186.69 115.57) (xy 182.88 115.57)
 		)
 		(stroke
@@ -1292,6 +1216,26 @@
 			(type default)
 		)
 		(uuid "f4ca37dd-b9cf-4285-b317-d51646c318de")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7465edb-821a-41f2-af73-deb7d4984e45")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f19e09-8603-4324-857c-af5c0e14fce7")
 	)
 	(rectangle
 		(start 88.9 45.72)
@@ -1401,75 +1345,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0889d79b-06d5-4985-a7fd-ecc577f62cc8")
-		(property "Reference" "R37"
-			(at 145.542 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 145.542 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 141.732 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc04e44b-9bb2-45c2-94e9-9d5f0b8557e2")
-		)
-		(pin "2"
-			(uuid "212bd9fb-2968-47b1-bb43-34ac7046eb8e")
-		)
-		(instances
-			(project "ShiftWay_f103"
-				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-					(reference "R37")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1676,16 +1551,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 88.9 180)
+		(at 130.81 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b35e1ce-e693-441d-a412-c4bfce31dc63")
-		(property "Reference" "R35"
-			(at 136.652 87.6299 0)
+		(uuid "7b1c4c47-bbed-435b-a7f1-b611e35dc4dc")
+		(property "Reference" "R34"
+			(at 133.604 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,8 +1568,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 136.652 90.1699 0)
+		(property "Value" "2k2"
+			(at 133.604 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 136.398 88.9 90)
+			(at 132.588 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 88.9 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 88.9 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,15 +1605,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "74256837-d9e3-4641-91ff-569490b14d3e")
+			(uuid "90c1930a-a815-4fa7-9f32-b25f6906ab0f")
 		)
 		(pin "2"
-			(uuid "091811e3-bd45-40f1-8bd7-747c6c04e1f6")
+			(uuid "e301ab2e-e3ce-4992-b30c-670ba98c0c4d")
 		)
 		(instances
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1944,76 +1819,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94bf4938-f0b1-4a63-9408-a7be3be098af")
-		(property "Reference" "R34"
-			(at 129.032 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 129.032 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 128.778 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c71a822-65a2-461a-9eee-727ff12b0599")
-		)
-		(pin "2"
-			(uuid "86d8e5ac-c989-4edc-aa29-309ba9fbd4e8")
-		)
-		(instances
-			(project "ShiftWay_f103"
-				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 119.38 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2031,7 +1836,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k2"
 			(at 122.174 90.1699 0)
 			(effects
 				(font
@@ -2083,17 +1888,35 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 127 128.27 0)
+		(lib_id "Device:R")
+		(at 140.97 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a162ba05-d0da-4c16-af31-a5b509a5562a")
-		(property "Reference" "#PWR068"
-			(at 127 134.62 0)
+		(fields_autoplaced yes)
+		(uuid "9e2d0bc9-6e54-469b-925b-3e88bf17ba0a")
+		(property "Reference" "R35"
+			(at 143.764 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 143.764 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.748 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,25 +1924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 128.27 0)
+		(property "Datasheet" "~"
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +1934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 128.27 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,12 +1943,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f793c62-82d2-4dcb-843c-79afd1b93dd4")
+			(uuid "82097f27-34b2-49c5-aec0-8ea1d38c9e95")
+		)
+		(pin "2"
+			(uuid "55409fb2-0317-4564-939f-83c9dfc9500a")
 		)
 		(instances
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-					(reference "#PWR068")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2276,76 +2085,6 @@
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db81c142-5390-46d2-8e42-41cc375c13c8")
-		(property "Reference" "R36"
-			(at 144.272 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 144.272 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 144.018 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50c64ec9-e195-4ba5-821a-d7e907174b52")
-		)
-		(pin "2"
-			(uuid "7fdb8f21-3c64-4957-8735-3daea8ab5d18")
-		)
-		(instances
-			(project "ShiftWay_f103"
-				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2521,6 +2260,72 @@
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 140.97 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff8093b0-9e41-441d-966d-e6abae41ad8e")
+		(property "Reference" "#PWR068"
+			(at 140.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6b906ed-0974-4463-815a-a93717128d52")
+		)
+		(instances
+			(project "ShiftWay_f103"
+				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/44aacc1d-3f92-4714-b852-d77f581a6611"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

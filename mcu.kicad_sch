@@ -1133,6 +1133,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_SL_Connectors:JST_06"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3134,6 +3279,12 @@
 		(uuid "97b7862e-248a-4ada-8b51-5b6f98d51b04")
 	)
 	(junction
+		(at 50.8 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9931a5ca-3b61-4e48-9f9e-c72529a7c678")
+	)
+	(junction
 		(at 205.74 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3797,6 +3948,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 68.58) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641d63ef-4a9e-46cc-963b-e4fb16a7311d")
+	)
+	(wire
+		(pts
 			(xy 243.84 59.69) (xy 247.65 59.69)
 		)
 		(stroke
@@ -4007,6 +4168,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b822f3e-715b-4319-b199-d9df01a70423")
+	)
+	(wire
+		(pts
 			(xy 29.21 27.94) (xy 29.21 31.75)
 		)
 		(stroke
@@ -4104,6 +4275,16 @@
 			(type default)
 		)
 		(uuid "9be1d964-22a6-4969-b0f4-ce6ab6948c5d")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e3f156-8626-4304-947d-a3ab22ed7f35")
 	)
 	(wire
 		(pts
@@ -4567,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 60.96 68.58)
+			(xy 34.29 68.58) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5224,7 @@
 	)
 	(global_label "STATE"
 		(shape input)
-		(at 57.15 68.58 180)
+		(at 34.29 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5053,7 +5234,7 @@
 		)
 		(uuid "404391d5-50cc-4aba-aac6-91f60b805836")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7825 68.58 0)
+			(at 25.9225 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,6 +7325,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a093cf-e6d2-43b0-9448-9124334fe3b0")
+		(property "Reference" "#PWR042"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baccbbdd-d8da-42ca-b70f-161fea78116e")
+		)
+		(instances
+			(project "ShiftWay_f103"
+				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/013bb254-f239-4c32-8f76-0a97895c10b6"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 29.21 35.56 0)
 		(unit 1)
@@ -8168,6 +8414,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 50.8 76.2 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b47054d-0163-4dd0-84ee-feb0f4795cd0")
+		(property "Reference" "JP1"
+			(at 52.07 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b8e665e-72d1-4803-86f1-c05c0055331d")
+		)
+		(pin "1"
+			(uuid "20359355-e7c7-42aa-b55e-18405d905e88")
+		)
+		(instances
+			(project "ShiftWay_f103"
+				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/013bb254-f239-4c32-8f76-0a97895c10b6"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 151.13 0)
 		(unit 1)
@@ -8837,6 +9153,72 @@
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/013bb254-f239-4c32-8f76-0a97895c10b6"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 50.8 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c92123-50b3-42ad-824a-f241ab908ce4")
+		(property "Reference" "#PWR0105"
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f0c5691-d2ed-4789-9695-934c6ea44c73")
+		)
+		(instances
+			(project "ShiftWay_f103"
+				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/013bb254-f239-4c32-8f76-0a97895c10b6"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -9536,72 +9918,6 @@
 			(project "ShiftWay_f103"
 				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/013bb254-f239-4c32-8f76-0a97895c10b6"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 60.96 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc13ac74-bab2-45c3-8a4e-468ed361914c")
-		(property "Reference" "#PWR042"
-			(at 60.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 60.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8728d882-f6fe-4d4e-9320-73a2cb7e2b4b")
-		)
-		(instances
-			(project "ShiftWay_f103"
-				(path "/c57bc97c-1c43-4bb1-9424-fed846030b7b/013bb254-f239-4c32-8f76-0a97895c10b6"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
